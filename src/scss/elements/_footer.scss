@@ -1,0 +1,39 @@
+.footer__container{
+  height: 70px;
+  background: black;
+  width: 1220px;
+  margin-top: 20px;
+  box-shadow: 0 0 1em black;
+  border-radius: 20px;
+
+  .container {
+    .text__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+  }
+}
+.footer{
+  height: 70px;
+}
+
+.footer__social{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer__icon{
+  color: #008080;
+}
+.footer__copyright{
+  color: #008080;
+}
+
+.footer__logo {
+  height: 50px;
+  width: 60px;
+  margin-right: 30px;
+}

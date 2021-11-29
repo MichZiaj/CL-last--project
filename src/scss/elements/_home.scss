@@ -1,0 +1,23 @@
+.opening{
+  width: 1400px;
+}
+
+.opening__content{
+  margin-top: 20px;
+  width: 100%;
+  height: 600px;
+  background-image: url("../../images/openphoto.jpg") ;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 3em black;
+  border-radius: 20px;
+}
+
+.opening__logo{
+  height: 250px;
+  width: 250px;
+}

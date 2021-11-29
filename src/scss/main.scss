@@ -1,5 +1,15 @@
-footer{
+@import "generic/reset";
+
+@import "settings/fonts";
+@import "settings/global";
+@import "settings/colors";
+
+@import "elements/header";
+@import "elements/footer";
+@import "elements/home";
+@import "elements/pricelist";
+
+footer {
   display: flex;
-  height: 50px;
-  border: 1px solid blue
+  height: 300px;
 }
