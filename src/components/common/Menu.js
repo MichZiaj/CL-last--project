@@ -1,8 +1,6 @@
 import * as React from 'react';
 import MenuItem from '@mui/material/MenuItem';
 import {Link} from "react-router-dom";
-import logo2 from '../../images/logo2.png'
-import logo from '../../images/logo.png';
 
 
 export default function BasicMenu() {

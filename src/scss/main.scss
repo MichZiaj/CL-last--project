@@ -8,8 +8,5 @@
 @import "elements/footer";
 @import "elements/home";
 @import "elements/pricelist";
-
-footer {
-  display: flex;
-  height: 300px;
-}
+@import "elements/contact";
+@import "elements/gallery";
