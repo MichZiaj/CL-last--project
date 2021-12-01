@@ -22,19 +22,17 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-  box-shadow: white;
 }
 
-
-
-.arrow-left {
-  position: absolute;
-  top: 50%;
-  left: 0;
+.swiper-3d .swiper-wrapper,
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-slide-shadow-bottom,
+.swiper-3d .swiper-cube-shadow {
+  width: 300px;
+  height: 400px;
 }
 
-.arrow-right {
-  position: absolute;
-  top: 50%;
-  right: 0;
-}
