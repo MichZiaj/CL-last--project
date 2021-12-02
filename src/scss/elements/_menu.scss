@@ -21,7 +21,7 @@
   }
 }
 .logo__text{
- font-family: 'Lobster', cursive;
+ font-family: $fonts-logo;
   font-size: 2.4em;
   text-decoration: none;
   color: $color-primary;
@@ -41,11 +41,6 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo {
-  display: flex;
-  color: $color-primary;
-  text-decoration: none;
-}
 
 .nav__list * {
   -webkit-box-sizing: border-box;
@@ -53,12 +48,7 @@
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.nav__list li {
-  display: inline-block;
-  list-style: outside none none;
-  margin: 15px 1em;
-  padding: 0;
-}
+
 .nav__list a {
   padding: 0.5em 0.8em;
   margin: 0.2em 0;
