@@ -1,9 +1,9 @@
 .footer__container{
   height: 70px;
-  background: black;
+  background: $color-secondary;
   width: 1220px;
   margin-top: 20px;
-  box-shadow: 0 0 1em black;
+  box-shadow: 0 0 1em $color-secondary;
   border-radius: 20px;
 
   .container {
@@ -26,10 +26,10 @@
 }
 
 .footer__icon{
-  color: #008080;
+  color: $color-primary;
 }
 .footer__copyright{
-  color: #008080;
+  color: $color-primary;
 }
 
 .footer__logo {

@@ -41,18 +41,18 @@ const Gallery = () => {
                 "modifier": 1,
                 "slideShadows": true
             }} pagination={true} className="mySwiper">
-                    <SwiperSlide><img  src={photo1} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo3} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo4} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo5} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo6} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo7} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo8} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo9} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo10} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo11} alt="" /></SwiperSlide>
-                    <SwiperSlide><img  src={photo12} alt="" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo1} alt="Salon" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo2} alt="Akcesoria fryzjerskie" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo3} alt="Fryzura pierwsza krótko ścięte włosy" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo4} alt="Długa wyrównana broda" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo5} alt="Fade oraz krótka borda" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo6} alt="Krótka cieniowana fryzura" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo7} alt="Strzyżenie nożyczkami" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo8} alt="Mgiełka na włosy" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo9} alt="Długa wyrównana brod" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo10} alt="Fade z grzywką" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo11} alt="Fade i zgolona broda" /></SwiperSlide>
+                    <SwiperSlide><img  src={photo12} alt="Pocieniowane włosy z wyrównaną brodą" /></SwiperSlide>
 
                 </Swiper>
                     </div>

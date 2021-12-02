@@ -4,7 +4,7 @@
 }
 .price__box{
   height: 450px;
-  background-color: #008080;
+  background-color: $color-primary;
   text-align: center;
   margin-top: 20px;
   padding: 35px 40px;
@@ -17,12 +17,12 @@
 
 .box__tittle{
   padding: 30px;
-  color: white;
+  color: $color-fonts;
   font-size: 3em;
 
 }
 
 .box__text{
-  color: white;
+  color: $color-fonts;
   font-size: 2em;
 }

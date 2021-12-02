@@ -1,0 +1,30 @@
+.about-us__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 520px;
+  gap:100px;
+  margin-bottom: 19px;
+}
+
+.about-us__photo{
+  height: 450px;
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 50px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.about-us__tittle {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em;
+  color: $color-fonts;
+  margin-bottom: 20px;
+}
+
+.about-us__text{
+  color: $color-fonts;
+  margin-right: 200px;
+  font-size: 1.1em;
+}

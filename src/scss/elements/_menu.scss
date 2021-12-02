@@ -1,10 +1,10 @@
 
 .header__container {
   height: 70px;
-  background: black;
+  background: $color-secondary;
   width: 1220px;
   margin-top: 20px;
-  box-shadow: 0 0 1em black;
+  box-shadow: 0 0 1em $color-secondary;
   border-radius: 20px;
   .container {
     .text__container {
@@ -24,7 +24,7 @@
  font-family: 'Lobster', cursive;
   font-size: 2.4em;
   text-decoration: none;
-  color: #008080;
+  color: $color-primary;
 
 }
 .nav__list {
@@ -36,14 +36,14 @@
   font-family: Arial, serif;
   font-weight: 700;
   font-size: 13px;
-  color: #008080;
+  color: $color-primary;
   padding: 18px 18px 32px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo {
   display: flex;
-  color: #008080;
+  color: $color-primary;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@
   padding: 0.5em 0.8em;
   margin: 0.2em 0;
   display: block;
-  color: #008080;
+  color: $color-primary;
   position: relative;
   text-decoration: none;
 }
@@ -80,22 +80,22 @@
 .nav__list a:before {
   left: 0;
   top: 0;
-  border-left: 3px solid #008080;
-  border-top: 3px solid #008080;
+  border-left: 3px solid $color-primary;
+  border-top: 3px solid $color-primary;
   -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
 }
 .nav__list a:after {
   right: 0;
   bottom: 0;
-  border-right: 3px solid #008080;
-  border-bottom: 3px solid #008080;
+  border-right: 3px solid $color-primary;
+  border-bottom: 3px solid $color-primary;
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
 }
 .nav__list a:hover,
 .nav__list .current a {
-  color: #ffffff;
+  color: $color-fonts;
 }
 .nav__list a:hover:before,
 .nav__list a:hover:after {

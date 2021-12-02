@@ -11,7 +11,20 @@ import emailjs from "emailjs-com";
         emailjs.sendForm('service_wr4vwqr', 'template_9lzlxjt', form.current, 'user_2U6soiCMqUcDXv1U575xS')
             .then((result) => {
                 console.log(result.text);
-                alert("Wiadomość została wysłana poprawnie!")
+                alert("Wiadomość została wysłana poprawnie!");
+
+                const reset2 = document.querySelector("textarea");
+                reset2.value = "";
+
+                const reset = document.querySelectorAll(".reset-value");
+                reset.forEach(function (e){
+                    e.value = ""
+                })
+
+
+
+
+
             }, (error) => {
                 console.log(error.text);
                 alert('Wystąpiły problemy techniczne. Wiadomość nie została wysłana')
@@ -39,22 +52,22 @@ import emailjs from "emailjs-com";
 
             <div className="user-box">
                 <label>Imię</label>
-                <input type="text" name="user_name" />
+                <input className="reset-value" type="text" name="user_name" />
             </div>
 
             <div className="user-box">
                 <label>Nazwisko</label>
-                <input type="text" name="user_lastname" />
+                <input className="reset-value" type="text" name="user_lastname" />
             </div>
 
             <div className="user-box">
                 <label>Nr. tel.</label>
-                <input type="number" name="user_phone" />
+                <input className="reset-value" type="number" name="user_phone" />
             </div>
 
             <div className="user-box">
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input className="reset-value" type="email" name="user_email" />
             </div>
 
             <div className="user-message">

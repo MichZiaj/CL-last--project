@@ -25,7 +25,7 @@ const Footer = () => {
                         </div>
                         <span className="footer__copyright">© 2021 Barbeer Żiżą, All Rights Reserved</span>
                         <Link className='logo__container' to="/">
-                            <img className="footer__logo" src={logo2} alt="broda"/>
+                            <img className="footer__logo" src={logo2} alt="logo"/>
                         </Link>
                     </div>
                 </div>
